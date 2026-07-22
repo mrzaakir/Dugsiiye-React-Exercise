@@ -1,0 +1,14 @@
+/* index.css — minimal styles */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: #f7f7f7;
+}
+div { color: #222 }
