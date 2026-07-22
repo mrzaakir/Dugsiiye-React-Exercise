@@ -3,11 +3,10 @@
     "target": "ES2020",
     "module": "ESNext",
     "moduleResolution": "bundler",
-    "jsx": "preserve",
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["src/*"]
-    }
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "checkJs": false,
+    // "baseUrl": "."
   },
   "include": ["src"]
 }
