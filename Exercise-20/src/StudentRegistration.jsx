@@ -5,7 +5,7 @@ const StudentRegistration = () => {
 
   const onSubmit = (data) => {
     console.log('Form submitted:', data);
-    // Here you would typically send the data to a server
+   
     alert('Registration successful!\n' + JSON.stringify(data, null, 2));
   };
 
@@ -14,7 +14,7 @@ const StudentRegistration = () => {
       <h2 className="text-2xl font-bold mb-6">Student Registration</h2>
       
       <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
-        {/* Student Name */}
+        
         <div>
           <label className="block text-sm font-medium mb-1">
             Student Name
@@ -36,7 +36,6 @@ const StudentRegistration = () => {
           )}
         </div>
 
-        {/* Email */}
         <div>
           <label className="block text-sm font-medium mb-1">
             Email
@@ -58,7 +57,7 @@ const StudentRegistration = () => {
           )}
         </div>
 
-        {/* Grade Level */}
+       
         <div>
           <label className="block text-sm font-medium mb-1">
             Grade Level
@@ -82,7 +81,7 @@ const StudentRegistration = () => {
           )}
         </div>
 
-        {/* Subjects Interest */}
+     
         <div>
           <label className="block text-sm font-medium mb-2">
             Subjects Interest
@@ -125,7 +124,7 @@ const StudentRegistration = () => {
           )}
         </div>
 
-        {/* Submit Button */}
+       
         <button
           type="submit"
           className="w-full bg-rose-500 text-white py-2 rounded hover:bg-rose-600"
@@ -136,5 +135,6 @@ const StudentRegistration = () => {
     </div>
   );
 };
+
 
 export default StudentRegistration;
