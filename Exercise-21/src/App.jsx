@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import DeveloperApplicationForm from './DeveloperApplicationFrom'
+import DeveloperApplicationForm from './DeveloperApplicationForm'
 
 function App() {
   return(
